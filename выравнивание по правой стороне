@@ -1,0 +1,7 @@
+list_1 = ["яблоко", "банан", "киви", "арбуз", "авокадодо"]
+a = 0
+for i in list_1:
+    if len(i) > a:
+        a = len(i)
+for i in list_1:
+    print("{:>{}}".format(i, a))
